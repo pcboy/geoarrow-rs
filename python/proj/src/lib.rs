@@ -1,3 +1,4 @@
+#![recursion_limit = "512"]
 use pyo3::prelude::*;
 
 const VERSION: &str = env!("CARGO_PKG_VERSION");
